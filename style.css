@@ -653,6 +653,10 @@ body {
     max-width: 100%;
   }
 
+  .product-block__text br {
+    display: none;
+  }
+
   .product-block__white-container {
     padding: 41px 33px 40px;
   }
