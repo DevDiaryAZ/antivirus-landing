@@ -617,6 +617,12 @@ body {
   }
 }
 
+@media screen and (min-width: 840px) {
+    .product-block__text br {
+      display: none;
+    }
+}
+
 @media screen and (min-width: 1000px) {
   .product-block {
     padding-top: 64px;
@@ -651,10 +657,6 @@ body {
 
   .product-block .product-block__text {
     max-width: 100%;
-  }
-
-  .product-block__text br {
-    display: none;
   }
 
   .product-block__white-container {
